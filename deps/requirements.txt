@@ -4,4 +4,6 @@
 #
 #    pip-compile --output-file deps/requirements.txt deps/requirements.in
 #
-werkzeug==0.14.1
+
+werkzeug>=1.0.1
+    # via -r deps/requirements.in
